@@ -18,11 +18,11 @@
 #title {
   text-align: center;
   font-size: 1.5rem;
-  animation-name: flashing_button;
+  /* animation-name: flashing_button;
   animation-duration: 2s;
   animation-delay: 500ms;
   animation-iteration-count: infinite;
-  animation-direction: ease;
+  animation-direction: ease; */
 }
 
 #description {
@@ -38,7 +38,6 @@
   background-image: url(./img/shirtshanging.jpg);
   height: 50rem;
   margin: 0;
-  transform: scale(1.05);
   opacity: 0.8;
   background-attachment: fixed;
 }
@@ -74,17 +73,22 @@
 }
 
 .hoverme:hover {
-  transform: scale(1.5);
+  font-size: 1.5rem;
 }
 
 .hovermep:hover {
-  transform: scale(1.05);
   font-size: 1.3rem;
 }
 
 body {
   margin: 0;
   background-color: #0a114f;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
 }
 
 h2 {
@@ -129,6 +133,7 @@ img:hover {
   font-weight: 700;
   margin-top: 4rem;
   margin-bottom: 4rem;
+  width: 100%;
 }
 
 /* Section 3 */

@@ -1,4 +1,4 @@
-Landing Page
+Landing Page ✔️
 
 A landing page is another good project you can make using HTML and CSS but it
 requires a solid knowledge of those two building blocks.You will be using lots
