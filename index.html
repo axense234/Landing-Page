@@ -1,88 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Landing Page</title>
-</head>
-<body>
-    <div style="width: 100%;">
-        <!-- Section 1 -->
-        <!-- =============================================== -->
-        <section id="section1">
-            <div class="center">
-                <h1 id="title" class="shadow">Welcome to Fashion Shirts</h1>
-                <p id="description" class="shadow">
-                    We at Fashion Shirts have brought you a lot of shirts,
-                    including:tank tops,t-shirts,polo shirts,jerseys and turtle necks!
-                </p>
-                <div id="button-container">
-                    <a href="#section3"><button id="readmore" class="rounded-border shadow">Read more!</button></a>
-                </div>
-            </div>
-        </section>
-        <!-- Section 2 -->
-        <!-- =============================================== -->
-        <section id="section2">
-            <div class="hoverme">
-                <h2>The Art of Shirt Makin'</h2>
-                <p>We are proud to say our company makes the best shirts on the market,having better:material quality,longevity and prices.</p>
-                <p>All of us here are like a big family that loves to make shirts and distribute them to people.</p>
-            </div>
-        </section>
-        <!-- Section 3 -->
-        <!-- =============================================== -->
-        <section id="section3">
-            <div class="section3div rounded-border">
-                <h3 class="hoverme">Tank Tops</h3>
-                <img src="./img/tanktop.jpg" alt="error" class="rounded-border">
-                <p class="hovermep">We only produce quality tank tops for you
-                to wear while playing a sport or just chilling in the summer with your family.</p>
-            </div>
-            <div class="section3div rounded-border">
-                <h3 class="hoverme">Turtle Necks</h3>
-                <img src="./img/tneck.png" alt="error" class="rounded-border">
-                <p class="hovermep">Turtle Necks are always a good look on someone with glasses or just something to wear to feel cozy.Top quality garanteed!</p>
-            </div>
-            <div class="section3div rounded-border">
-                <h3 class="hoverme">T-Shirts</h3>
-                <img src="./img/tshirt.jpg" alt="error" class="rounded-border">
-                <p class="hovermep">Just looking for a regular ol' t-shirt? We got those aswell! Simple and complex at the same time with top quality!</p>
-            </div>
-        </section>
-        <!-- Section 4 -->
-        <!-- =============================================== -->
-        <section id="section4">
-            <h2 class="hoverme">We deliver anywhere, anytime!</h2>
-            <p>When you buy a product from us,the order instantly is made
-                to come to you anywhere,anytime!</p>
-        </section>
-        <!-- Section 5 -->
-        <!-- =============================================== -->
-        <section id="section5">
-            <div id="contactus">
-                <h2 class="hoverme">Contact Us</h2>
-                <p>If you experience any trouble with your order please contact us at the address below.</p>
-                <p>contact@fashionshirts.com</p>
-            </div>
-            <div id="aboutus">
-                <h2 class="hoverme">About Us</h2>
-                <p>We started in 2018 producing and delivering shirts to people
-                    because one of the co-founders really like shirts,like a lot!
-                </p>
-            </div>
-        </section>
-        <!-- Footer -->
-        <!-- =============================================== -->
-        <footer id="footer">
-            <div id="footer-container">
-                <p>Fashion Shirts 2021</p>
-                <p>Project by Comanescu Andrei</p>
-            </div>
-        </footer>
+  </head>
+  <body>
+    <div class="root">
+      <!-- Section 1 -->
+      <!-- =============================================== -->
+      <section id="first-section-container">
+        <div class="first-section-container__content">
+          <h1>Welcome to Fashion Shirts</h1>
+          <p>
+            We at Fashion Shirts have brought you a lot of shirts,
+            including:tank tops,t-shirts,polo shirts,jerseys and turtle necks!
+          </p>
+          <button><a href="#third-section-container">Read More</a></button>
+        </div>
+      </section>
+      <!-- Section 2 -->
+      <!-- =============================================== -->
+      <section id="second-section-container">
+        <div class="second-section-container__content">
+          <h2>The Art of Shirt Makin'</h2>
+          <p>
+            We are proud to say our company makes the best shirts on the
+            market,having better:material quality,longevity and prices.
+          </p>
+          <p>
+            All of us here are like a big family that loves to make shirts and
+            distribute them to people.
+          </p>
+        </div>
+      </section>
+      <!-- Section 3 -->
+      <!-- =============================================== -->
+      <section id="third-section-container">
+        <div class="third-section-container__content">
+          <div class="tshirt-container">
+            <h3>Tank Tops</h3>
+            <img src="./assets/tanktop.jpg" alt="Tank Top" />
+            <p>
+              We only produce quality tank tops for you to wear while playing a
+              sport or just chilling in the summer with your family.
+            </p>
+          </div>
+        </div>
+        <div class="tshirt-container">
+          <h3>Turtle Necks</h3>
+          <img src="./assets/tneck.png" alt="Turtle Neck" />
+          <p>
+            Turtle Necks are always a good look on someone with glasses or just
+            something to wear to feel cozy.Top quality garanteed!
+          </p>
+        </div>
+        <div class="tshirt-container">
+          <h3>T-Shirts</h3>
+          <img src="./assets/tshirt.jpg" alt="Tshirt" />
+          <p>
+            Just looking for a regular ol' t-shirt? We got those aswell! Simple
+            and complex at the same time with top quality!
+          </p>
+        </div>
+      </section>
+      <!-- Section 4 -->
+      <!-- =============================================== -->
+      <section id="fourth-section-container">
+        <div class="fourth-section-container__content">
+          <h2>We deliver anywhere, anytime!</h2>
+          <p>
+            When you buy a product from us,the order instantly is made to come
+            to you anywhere,anytime!
+          </p>
+        </div>
+      </section>
+      <!-- Section 5 -->
+      <!-- =============================================== -->
+      <section id="fifth-section-container">
+        <div class="fifth-section-container__content">
+          <div class="fifth-section-container__section">
+            <h2>Contact Us</h2>
+            <p>
+              If you experience any trouble with your order please contact us at
+              the address below.
+            </p>
+            <p><a href="https://google.com">tshirts@yahoo.com</a></p>
+          </div>
+          <div class="fifth-section-container__section">
+            <h2>About Us</h2>
+            <p>
+              We started in 2018 producing and delivering shirts to people
+              because one of the co-founders really like shirts,like a lot!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <!-- =============================================== -->
+      <footer id="footer-container">
+        <div class="footer-container__content">
+          <p>Fashion Shirts 2021 Copyright &copy; All Rights Reserved.</p>
+          <p>
+            Project by
+            <a href="https://github.com/axense234"> axense234 </a>
+          </p>
+        </div>
+      </footer>
     </div>
-    
-</body>
+  </body>
 </html>
